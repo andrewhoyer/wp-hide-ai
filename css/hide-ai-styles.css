@@ -1,0 +1,48 @@
+/*******************************/
+/* Interface: Gutenburg editor */
+/*******************************/
+
+	/*****************/
+	/* Plugin: PostX */
+	/*****************/
+
+		/* Gutenburg paragraph and header block bar */
+		/* Gutenburg header area button */
+		button[aria-label="ChatGPT"] {
+			display: none !important;
+		}
+
+	/*********************/
+	/* Plugin: Elementor */
+	/*********************/
+
+		/* "Edit with Elementor AI" icon button in the Paragraph block */
+		/* "Generate with Elementor AI" sidebar links */
+		div.e-text-ai {
+			display: none !important;
+		}
+
+		/* Gutenburg paragraph and header block bar */
+		button[aria-label="Edit with Elementor AI"] {
+			display: none !important;
+		}
+
+/****************************/
+/* Interface: Media Library */
+/****************************/
+
+	/*********************/
+	/* Plugin: Elementor */
+	/*********************/
+
+		/* "Generate with Elementor AI" button */
+		div#e-image-ai-media-library {
+			display: none !important;
+		}
+
+		/* "Edit with Elementor AI" button */
+		div#e-image-ai-attachment-details {
+			display: none !important;
+		}
+
+
