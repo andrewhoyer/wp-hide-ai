@@ -6,7 +6,7 @@ A WordPress plugin that hides AI buttons and links in the admin area.
 
 The purpose of this app is not to discourage the use of AI. However, theme and plugin developers are injecting buttons and links into core interfaces of the WordPress admin area, as well as in the Gutenburg editor.
 
-This plugin is for WordPress users who want a clutter-free interface, without AI buttons an options taking up space.
+This plugin is for WordPress users who want a clutter-free interface, without AI buttons and options taking up space.
 
 ## Details
 
@@ -16,7 +16,7 @@ The areas in which AI buttons and links are hidden are limited to core interface
 
 Before
 
-![Before](/images/screenshot-1.pngg)
+![Before](/images/screenshot-1.png)
 
 After
 
