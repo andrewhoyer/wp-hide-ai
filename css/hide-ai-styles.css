@@ -27,6 +27,27 @@
 			display: none !important;
 		}
 
+		/* Link under Set featured image */
+		div.e-featured-image-ai {
+			display: none !important;
+		}
+
+	/************************/
+	/* Plugin Rank Math SEO */
+	/************************/
+		
+		/* Gutenburg header area button */
+		button[aria-label="Content AI"] {
+			display: none !important;
+		}
+
+		/* Gutenburg paragraph and header block bar */
+		button[aria-label="Content AI Commands"] {
+			display: none !important;
+		}
+		
+		
+
 /****************************/
 /* Interface: Media Library */
 /****************************/
@@ -45,4 +66,11 @@
 			display: none !important;
 		}
 
+	/************************/
+	/* Plugin Rank Math SEO */
+	/************************/
 
+		/* Attachment details, button for alt text */
+		button.rank-math-generate-alt-button {
+			display: none !important;
+		}
