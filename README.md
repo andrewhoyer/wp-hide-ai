@@ -2,11 +2,11 @@
 
 A WordPress plugin that hides AI buttons and links in the admin area.
 
-## But why?
-
-The purpose of this app is not to discourage the use of AI in general. However, theme and plugin developers are injecting buttons and links into core interfaces of the WordPress admin area, as well as in the Gutenburg editor.
+## Description
 
 This plugin is for WordPress users who want a clutter-free interface, without AI buttons and options taking up space.
+
+The point is not to discourage the use of AI in general. In fact, AI was used in research and development, and creation of assets for this plugin. However, theme and plugin developers are injecting buttons and links into core interfaces of the WordPress admin area, as well as in the Gutenburg editor, and it is these areas that this plugin is meant to clean up.
 
 ## Details
 
@@ -20,7 +20,7 @@ As a proof-of-concept, the initial release of the plugin hides AI options genera
 * PostX
 * Rank Math SEO
 
-## Visual example
+## Screenshots
 
 Before
 
@@ -36,7 +36,7 @@ Simply install and activate the plugin. That's it! There are no setting or optio
 
 ## FAQ
 
-### "I'm still seeing an AI option"
+### Why am I still seeing certain AI buttons or links even after installing the plugin?
 
 This plugin will be a constantly growing project. If you have a theme or plugin that is injecting an AI link or button that isn't covered, please submit an issue to the [GitHub project](https://github.com/andrewhoyer/wp-hide-ai/issues).
 
