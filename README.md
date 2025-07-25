@@ -40,6 +40,8 @@ Simply install and activate the plugin. That's it! There are no setting or optio
 
 ### Why am I still seeing certain AI buttons or links even after installing the plugin?
 
+First, check the "Plugins and Themes" list to see if the one you are using is listed.
+
 This plugin will be a constantly growing project. If you have a theme or plugin that is injecting an AI link or button that isn't covered, please [submit an issue](https://github.com/andrewhoyer/wp-hide-ai/issues).
 
 Also, if the AI option you are seeing is part of that plugin's interface, it may fall outside the scope of what Hide AI is trying to do. The objective is to clean up the core areas of the admin interface (media, posts, pages, etc).

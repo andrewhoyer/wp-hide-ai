@@ -50,7 +50,9 @@ There are a few ways you can help make Hide AI better and support more developme
 
 = Why am I still seeing certain AI buttons or links even after installing the plugin?
 
-Care is taken to hide only specific interface elements, and so they must be included on a case-by-case basis. If you know which plugin or theme is adding the AI buttons to your interface, please add a request to the support forum:
+First, check the "Plugins and Themes" list to see if the one you are using is listed.
+
+This plugin will be a constantly growing project. If you have a theme or plugin that is injecting an AI link or button that isn't covered, please add a request to the support forum:
 
 <a href="https://wordpress.org/support/plugin/hide-ai/">https://wordpress.org/support/plugin/hide-ai/</a>
 
