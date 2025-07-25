@@ -45,8 +45,36 @@
 		button[aria-label="Content AI Commands"] {
 			display: none !important;
 		}
+
+	/***********************/
+	/* Plugin Otter blocks */
+	/***********************/
+		/* Gutenburg paragraph and header block bar */
+		button[aria-label="Otter AI Content"] {
+			display: none !important;
+		}
 		
-		
+	/*******************/
+	/* Plugin: Spectra */
+	/*******************/
+
+		/* Gutenburg heading and paragraph */
+		.components-accessible-toolbar.zip-ai-toolbar {
+			display: none !important;
+		}
+
+		/* Gutenburg paragraph and header block bar */
+		button[aria-label="AI Assistant"] {
+			display: none !important;
+		}
+
+		/* Entry in the Options menu under Plugins */
+		button[aria-controls="zip-ai-page-level-settings:zip-ai-page-settings-panel"] {
+			display: none !important;
+		}
+
+
+
 
 /****************************/
 /* Interface: Media Library */
@@ -72,5 +100,19 @@
 
 		/* Attachment details, button for alt text */
 		button.rank-math-generate-alt-button {
+			display: none !important;
+		}
+
+
+/****************************/
+/* Interface: Admin toolbar */
+/****************************/
+
+	/*******************/
+	/* Plugin: Spectra */
+	/*******************/
+
+		/* Toolbar next to user dropdown */
+		li#wp-admin-bar-zip-ai-assistant {
 			display: none !important;
 		}

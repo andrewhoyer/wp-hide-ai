@@ -20,7 +20,7 @@
 	* Plugin Name:       Hide AI
 	* Plugin URI:        https://andrewhoyer.com/hide-ai/
 	* Description:       Hides AI buttons and links in the WordPress admin area
-	* Version:           0.1
+	* Version:           0.2
 	* Author:            Andrew Hoyer
 	* Author URI:        https://andrewhoyer.com
 	* License:           GPL-3.0
@@ -40,7 +40,7 @@ function hide_ai_styles_enqueue() {
         'hide-ai-styles',
         plugin_dir_url(__FILE__) . 'css/hide-ai-styles.css',
         array(),
-        '0.1',
+        '0.2',
         'all'
     );
 }
