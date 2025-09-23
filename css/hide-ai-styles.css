@@ -27,13 +27,9 @@
 			display: none !important;
 		}
 
-		/* Link under Set featured image */
-		div.e-featured-image-ai {
-			display: none !important;
-		}
 
 	/************************/
-	/* Plugin Rank Math SEO */
+	/* Plugin: Rank Math SEO */
 	/************************/
 		
 		/* Gutenburg header area button */
@@ -47,8 +43,9 @@
 		}
 
 	/***********************/
-	/* Plugin Otter blocks */
+	/* Plugin: Otter blocks */
 	/***********************/
+
 		/* Gutenburg paragraph and header block bar */
 		button[aria-label="Otter AI Content"] {
 			display: none !important;
@@ -68,13 +65,70 @@
 			display: none !important;
 		}
 
+
+/**************************/
+/* Interface: Post editor */
+/**************************/
+
+	/**************************/
+	/* Plugin: All in One SEO */
+	/**************************/
+
+		/* Top bar "writing assistant" */
+		button:has(#aioseo-writing-assistant-sidebar-button) {
+			display: none !important;
+		}
+
+		/* Top bar plugin menu AI option */
+		a:has(svg.aioseo-ai-content) {
+			display: none !important;
+		}
+
+		/* Options menu writing assistant option */
+		button#aioseo-writing-assistant-sidebar-button {
+			display: none !important;
+		}
+
+		/* Plugin settings area AI Content */
+		div:has(> svg.aioseo-ai-content) {
+			display: none !important;
+		}
+
+		/* Writing assistant metabox */
+		div#aioseo-writing-assistant-metabox {
+			display: none !important;
+		}
+
+	/*********************/
+	/* Plugin: Elementor */
+	/*********************/
+
+		/* "Add an excerpt" sidebar link */
+		div.e-excerpt-ai {
+			display: none !important;
+		}
+
+		/* Link under Set featured image */
+		div.e-featured-image-ai {
+			display: none !important;
+		}
+
+	/*******************/
+	/* Plugin: Spectra */
+	/*******************/
+
 		/* Entry in the Options menu under Plugins */
 		button[aria-controls="zip-ai-page-level-settings:zip-ai-page-settings-panel"] {
 			display: none !important;
 		}
 
-
-
+	/*****************/
+	/* Plugin: Yoast */
+	/*****************/
+		/* "Generate" buttons in SEO title and Meta description area */
+		.yst-root button.yst-replacevar__use-ai-button {
+			display: none !important;
+		}
 
 /****************************/
 /* Interface: Media Library */
