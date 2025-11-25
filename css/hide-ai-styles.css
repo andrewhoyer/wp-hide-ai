@@ -157,6 +157,20 @@
 			display: none !important;
 		}
 
+/********************/
+/* Interface: Users */
+/********************/
+
+	/*********************/
+	/* Plugin: Elementor */
+	/*********************/
+
+		/* Elementor AI on/off option */
+		tr:has(#elementor_enable_ai),
+		tr:has(+ tr #elementor_enable_ai)
+		{
+			display: none !important;
+		}
 
 /****************************/
 /* Interface: Admin toolbar */
@@ -168,5 +182,47 @@
 
 		/* Toolbar next to user dropdown */
 		li#wp-admin-bar-zip-ai-assistant {
+			display: none !important;
+		}
+
+
+/************************/
+/* Interface: Dashboard */
+/************************/
+
+	/*********************/
+	/* Plugin: Elementor */
+	/*********************/
+
+		/* Elementor Overview widget link */
+		.e-overview__ai {
+			display: none !important;
+		}
+
+
+
+/****************************/
+/* Interface: Admin sidebar */
+/****************************/
+
+	/*******************/
+	/* Plugin: Spectra */
+	/*******************/
+
+		/* AI Features link in the Spectra section */
+		#adminmenu li:has(a[href*="ai-features"]) {
+			display: none !important;
+		}
+
+
+	/*******************/
+	/* Plugin: SeedProd */
+	/*******************/
+
+		/* AI Theme Builder option in SeedProd section */
+		li a[href*="seedprod_lite_ai_themes"] {
+			display: none !important;
+		}
+		li:has(> a[href*="seedprod_lite_ai_themes"]) {
 			display: none !important;
 		}

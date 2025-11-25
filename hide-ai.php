@@ -20,7 +20,7 @@
 	* Plugin Name:       Hide AI
 	* Plugin URI:        https://andrewhoyer.com/hide-ai/
 	* Description:       Hides AI buttons and links in the WordPress admin area
-	* Version:           0.3
+	* Version:           0.4
 	* Author:            Andrew Hoyer
 	* Author URI:        https://andrewhoyer.com
 	* License:           GPL-3.0
@@ -45,5 +45,8 @@ function hide_ai_styles_enqueue() {
     );
 }
 add_action('admin_enqueue_scripts', 'hide_ai_styles_enqueue');
+
+// Turn off all Elementor AI options. CSS is still there as a backup.
+add_filter('get_user_option_elementor_enable_ai', '__return_zero' );
 
 ?>
