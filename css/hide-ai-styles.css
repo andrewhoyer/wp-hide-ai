@@ -200,7 +200,6 @@
 		}
 
 
-
 /****************************/
 /* Interface: Admin sidebar */
 /****************************/
@@ -215,9 +214,9 @@
 		}
 
 
-	/*******************/
+	/********************/
 	/* Plugin: SeedProd */
-	/*******************/
+	/********************/
 
 		/* AI Theme Builder option in SeedProd section */
 		li a[href*="seedprod_lite_ai_themes"] {
@@ -226,3 +225,25 @@
 		li:has(> a[href*="seedprod_lite_ai_themes"]) {
 			display: none !important;
 		}
+
+	/**************************/
+	/* Plugin: All in One SEO */
+	/**************************/
+
+		/* AI Insights link in the All in One SEO section */
+		#adminmenu #toplevel_page_aioseo li:has(a[href*="ai-insights"]) {
+			display: none !important;
+		}
+
+
+/*************************************************/
+/* Interface: Plugin's own settings or interface */
+/*************************************************/
+	
+	/******************/
+	/* Plugin: WPCode */
+	/******************/
+
+	button.wpcode-ai-improve {
+		display: none !important;
+	}

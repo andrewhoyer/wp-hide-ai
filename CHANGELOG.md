@@ -1,8 +1,9 @@
 # Hide AI Change Log
 
-## 0.3 - Nov 25, 2025
+## 0.4 - Dec 10, 2025
 
 * Plugin now hides AI options for SeedProd
+* Plugin now hides AI options for WPCode
 * Broader hiding of AI options for Elementor
 
 ## 0.3 - Sep 23, 2025

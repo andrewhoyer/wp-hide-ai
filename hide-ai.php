@@ -40,7 +40,7 @@ function hide_ai_styles_enqueue() {
         'hide-ai-styles',
         plugin_dir_url(__FILE__) . 'css/hide-ai-styles.css',
         array(),
-        '0.3',
+        '0.4',
         'all'
     );
 }
