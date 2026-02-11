@@ -125,6 +125,12 @@
 	/*****************/
 	/* Plugin: Yoast */
 	/*****************/
+
+		/* "Generate" buttons in SEO title and Meta description area */
+		.yst-root:has(> button.yst-button--ai-secondary) {
+			display: none !important;
+		}
+
 		/* "Generate" buttons in SEO title and Meta description area */
 		.yst-root button.yst-replacevar__use-ai-button {
 			display: none !important;
@@ -235,6 +241,14 @@
 			display: none !important;
 		}
 
+	/*****************/
+	/* Plugin: Yoast */
+	/*****************/
+
+		/* AI Brand Insights button in the Yoast section */
+		li:has(> a[href*="wpseo_brand_insights"]) {
+			display: none !important;
+		}
 
 /*************************************************/
 /* Interface: Plugin's own settings or interface */
