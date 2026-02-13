@@ -136,6 +136,26 @@
 			display: none !important;
 		}
 
+	/************************/
+	/* Plugin Rank Math SEO */
+	/************************/
+
+		/* Content AI button in right panel */
+		button.rank-math-content-ai {
+			display: none !important;
+		}
+
+		/* Fix with AI button in right panel */
+		button.rank-math-ai-button {
+			display: none !important;
+		}
+
+		/* Content AI option under "Panels" in the right panel */
+		button[aria-controls="rank-math-content-ai:seo-by-rank-math-content-ai-sidebar"] {
+			display: none !important;
+		}
+
+
 /****************************/
 /* Interface: Media Library */
 /****************************/
@@ -249,6 +269,16 @@
 		li:has(> a[href*="wpseo_brand_insights"]) {
 			display: none !important;
 		}
+
+	/************************/
+	/* Plugin Rank Math SEO */
+	/************************/
+
+	/* Content AI entry in the sidebar admin section */
+	#adminmenu a[href="admin.php?page=rank-math-content-ai-page"],
+	#adminmenu a[href*="page=rank-math-content-ai-page"] {
+		display: none !important;
+	}
 
 /*************************************************/
 /* Interface: Plugin's own settings or interface */
