@@ -132,7 +132,9 @@
 		}
 
 		/* "Generate" buttons in SEO title and Meta description area */
-		.yst-root button.yst-replacevar__use-ai-button {
+		.yst-root button.yst-replacevar__use-ai-button,
+		.yst-root button[id^=yst-replacevar__use-ai-button],
+		.yst-root:has(>button[id^=yst-replacevar__use-ai-button]:only-child) {
 			display: none !important;
 		}
 
